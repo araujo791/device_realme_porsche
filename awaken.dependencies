@@ -1,15 +1,15 @@
 
 [
   {
-    "repository": "ad1tyas1ngh/android_kernel_realme_sm8350",
+    "repository": "IamCexary/android_kernel_realme_sm8350",
     "target_path": "kernel/realme/sm8350",
-    "branch": "T",
+    "branch": "base",
     "remote": "github"
   },
   {
-    "repository" : "araujo791/device_realme_porsche,
+    "repository" : "araujo791/vendor_realme_porsche,
     "target_path": "vendor/realme/porsche",
-    "branch": "Cov",
+    "branch": "PE13",
     "remote": "github"
   },
   {
