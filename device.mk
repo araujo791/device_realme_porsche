@@ -55,7 +55,7 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libsndmonitor \
     libspkrprot \
-    libstdc++.vendor \
+    libstdc++_vendor \
     libvolumelistener \
     sound_trigger.primary.lahaina:32
 
