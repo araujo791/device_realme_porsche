@@ -1,4 +1,4 @@
-#Covenant_Fushcia
+#Covenant_Fuchsia
 ro.boot.verifiedbootstate=green
 ro.boot.veritymode=enforcing
 ro.boot.vbmeta.device_state=locked
