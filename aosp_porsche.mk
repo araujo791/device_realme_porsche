@@ -11,16 +11,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from porsche device
 $(call inherit-product, device/realme/porsche/device.mk)
 
-# Inherit some common AwakenOS stuff.
+# Inherit some common stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# AwakenOS Extras
-AWAKEN_BUILD_TYPE := official
+#Extras Flags
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+BUILD_WITH_GAPPS := true
+TARGET_BUILD_APERTURE_CAMERA := false
+TARGET_ENABLE_BLUR := true
+TARGET_HAS_UDFPS := true
 
 PRODUCT_NAME := aosp_porsche
 PRODUCT_DEVICE := porsche
