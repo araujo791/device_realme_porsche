@@ -1,4 +1,4 @@
-Device configuration for realme GT 2
+Device configuration for realme GT 2 RMX3311
 =========================================
 
 The realme GT 2 (codenamed _"porsche"_) is a High-end smartphone from realme.
