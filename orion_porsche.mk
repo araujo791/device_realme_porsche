@@ -12,22 +12,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/porsche/device.mk)
 
 # Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_porsche
+# OTA Assert
+TARGET_OTA_ASSERT_DEVICE := porsche,RE58B2L1,RE52BL1,rmx3311
+
+PRODUCT_NAME := orion_porsche
 PRODUCT_DEVICE := porsche
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX3312
-
+PRODUCT_MODEL := RMX3311
 PRODUCT_SYSTEM_NAME := RE58B2L1
 PRODUCT_SYSTEM_DEVICE := RE58B2L1
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="RMX3312-user 14 UKQ1.230924.001 S.17c050f-b-fb53 release-keys" \
+    PRIVATE_BUILD_DESC="RMX3311-user 14 UKQ1.230924.001 S.17c050f-b-fb53 release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-BUILD_FINGERPRINT := realme/RMX3312/RE58B2L1:14/UKQ1.230924.001/S.17c050f-b-fb53:user/release-keys
+BUILD_FINGERPRINT := realme/RMX3311/RE58B2L1:14/UKQ1.230924.001/S.17c050f-b-fb53:user/release-keys
