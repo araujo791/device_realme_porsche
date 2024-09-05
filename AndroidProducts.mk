@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/orion_porsche.mk
+    $(LOCAL_DIR)/aosp_porsche.mk
