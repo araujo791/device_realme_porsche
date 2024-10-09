@@ -1,1 +1,1 @@
-require board=lahaina|RE58B2L1|rmx3311|porsche
+require board=lahaina|RE58B2L1
