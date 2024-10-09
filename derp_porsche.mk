@@ -13,6 +13,10 @@ $(call inherit-product, device/realme/porsche/device.mk)
 
 # Inherit some common PixelOS stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
+#flags
+DERP_BUILDTYPE := Covenant_Fuchsia
+DERP_MAINTAINER := Covenant Fuchsia
+#flags#
 
 PRODUCT_NAME := derp_porsche
 PRODUCT_DEVICE := porsche
