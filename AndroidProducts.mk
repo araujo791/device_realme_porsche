@@ -5,4 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_porsche.mk
+    $(LOCAL_DIR)/lineage_porsche.mk
+    
+    COMMON_LUNCH_CHOICES := \
+    lineage_porsche-user \
+    lineage_porsche-userdebug \
+    lineage_porsche-eng
+    
